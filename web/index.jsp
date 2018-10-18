@@ -44,7 +44,7 @@
             </div>
         </form>
         <h2>Meu nome</h2>
-        <form method="POST" action="manipula_nome.jsp">
+        <form method="POST" action="${pageContext.request.contextPath}/manipula_nome.jsp">
             <div>
                 <label for="nome">Nome:</label> <input type="text" name="nome" id="nome" />
             </div>

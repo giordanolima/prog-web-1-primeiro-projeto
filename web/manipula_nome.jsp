@@ -9,6 +9,5 @@ ck.setPath("/");
 response.addCookie(ck);
 
 // Redirecionando o usuário devolta para o arquivo index.jsp
-response.sendRedirect("index.jsp");
-
+response.sendRedirect(request.getContextPath() + "/index.jsp");
 %>
